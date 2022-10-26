@@ -6,6 +6,17 @@ using System.Threading.Tasks;
 
 namespace FacundoCList.FacundoCList
 {
+
+    /*
+    Utilice un array tipo Object porque investigando sobre la clase List encontre la siguiente definicion:
+    Representa una lista de objetos fuertemente tipados a la que se puede obtener acceso por índice. Proporciona métodos para buscar, ordenar y manipular listas.
+    https://learn.microsoft.com/es-es/dotnet/api/system.collections.generic.list-1?view=net-6.0
+    
+    Quizas lo tome muy literal a la definicion, pero a su vez encontre una fortaleza al utilizar array tipo object para este caso, ya que las casillas vacias van a ser
+    igual a null, en contraposicion a un array tipo int que van a ser igual a 0, y dado que 0 es un numero entero y es un valor totalmente valido para insertar,
+    se iba a deficultar la resolucion del problema que desde mi punto de vista era innecesario.
+    */
+
     internal class FacunCList
     {
         public object[] aList { get; set; }
@@ -18,7 +29,11 @@ namespace FacundoCList.FacundoCList
             aList = new object[tam];
         }
 
-
+        
+        /*
+        Al metodo instanciar lo pense como si fuera un pseudoSingleton.
+        la sentencia condicional  if (aList.Length == tam) en todos los casos va a ser verdadero y nos ahorramos el new.
+        */
         private object[] Instanciar()
         {
             if (aList.Length == tam)
@@ -40,7 +55,7 @@ namespace FacundoCList.FacundoCList
             else return aList;
         }
 
-
+        //Agregar a la ultima posicion
         public void Push(object valor)
         {
             if (tam == contador)
@@ -54,7 +69,9 @@ namespace FacundoCList.FacundoCList
             }
             contador++;
         }
-
+        
+        
+        //Insertar elemento indicando el indice
         public void Insert(object indice, object valor)
         {
             if (tam == aList.Length)
@@ -85,7 +102,7 @@ namespace FacundoCList.FacundoCList
             }
         }
 
-
+        //Buscar elemento segun el indice
         public void FindIndex(int index)
         {
             if (index >= 0)
@@ -103,7 +120,7 @@ namespace FacundoCList.FacundoCList
 
         }
 
-
+        //Buscar elemento.
         public void FindElement(object elemento)
         {
             for (int i = 0; i < aList.Length; i++)
@@ -120,7 +137,7 @@ namespace FacundoCList.FacundoCList
             }
         }
 
-
+        //Eliminar elemento por indice
         public void RemoveAt(int index)
         {
             if(index > tam)
@@ -175,7 +192,7 @@ namespace FacundoCList.FacundoCList
         }
 
 
-
+        //Ordenar elementos.
         public void Sort()
         {
             object[] aAux = new object[tam];
