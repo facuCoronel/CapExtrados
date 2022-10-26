@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacundoCList", "FacundoCList.csproj", "{33BB7FD8-6D62-4A99-9B6C-6C9F42E7EBEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33BB7FD8-6D62-4A99-9B6C-6C9F42E7EBEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33BB7FD8-6D62-4A99-9B6C-6C9F42E7EBEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33BB7FD8-6D62-4A99-9B6C-6C9F42E7EBEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33BB7FD8-6D62-4A99-9B6C-6C9F42E7EBEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE86905B-348C-4E92-8E66-0C0ACD0D9C99}
+	EndGlobalSection
+EndGlobal
