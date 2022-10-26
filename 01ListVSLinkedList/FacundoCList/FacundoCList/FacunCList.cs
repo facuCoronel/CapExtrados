@@ -6,6 +6,19 @@ using System.Threading.Tasks;
 
 namespace FacundoCList.FacundoCList
 {
+
+    /*
+    Utilizo array de objects porque segui la definicion de List 
+    "Representa una lista de objetos fuertemente tipados a la que se puede obtener acceso por índice. Proporciona métodos para buscar, ordenar y manipular listas."
+    https://learn.microsoft.com/es-es/dotnet/api/system.collections.generic.list-1?view=net-6.0
+    
+    Quizas tome muy literal a "lista de objectos" por su definicion. Pero a su vez encontre una fortaleza al usar arrays tipo object ya que, las casillas vacias 
+    van a ser igual a null (en caso de un array int seria igual a 0, y dado que 0 es un numero entero, se me iba a dificultar al saber si 0 era un numero ingresado 
+    o una casilla vacia dentro de la matriz)
+    
+    
+    
+    */
     internal class FacunCList
     {
         public object[] aList { get; set; }
@@ -18,7 +31,9 @@ namespace FacundoCList.FacundoCList
             aList = new object[tam];
         }
 
-
+        /*Al metodo instanciar lo pense como un pseudoSingleton ya siempre va a dar true la primera validacion 
+        (aList.Length == tam) y no lo multiplique por dos al array aAux porque no vi que sea necesario.
+        */
         private object[] Instanciar()
         {
             if (aList.Length == tam)
@@ -26,6 +41,7 @@ namespace FacundoCList.FacundoCList
                 tam = tam + 1;
 
                 object[] aAux = new object[tam];
+                
                 for (int i = 0; i < aList.Length; i++)
                 {
                     aAux[i] = aList[i];
@@ -40,7 +56,7 @@ namespace FacundoCList.FacundoCList
             else return aList;
         }
 
-
+        // Metodo push, inserta en la ultima posicion del array
         public void Push(object valor)
         {
             if (tam == contador)
@@ -54,7 +70,8 @@ namespace FacundoCList.FacundoCList
             }
             contador++;
         }
-
+        
+        // Metodo insert, inserta en el indice indicado algun valor deseado.
         public void Insert(object indice, object valor)
         {
             if (tam == aList.Length)
@@ -85,7 +102,7 @@ namespace FacundoCList.FacundoCList
             }
         }
 
-
+        //Metodo FindIndex, busca algun valor del array indicando el indice
         public void FindIndex(int index)
         {
             if (index >= 0)
@@ -103,7 +120,7 @@ namespace FacundoCList.FacundoCList
 
         }
 
-
+        //Metodo FindElement busca el elemento indicado como parametro
         public void FindElement(object elemento)
         {
             for (int i = 0; i < aList.Length; i++)
@@ -120,7 +137,9 @@ namespace FacundoCList.FacundoCList
             }
         }
 
-
+        
+        //Metodo RemoveAt elimina un elemento pasandole como parametro el indice, corriendo una posicion a partir de ese indice para que no
+        //quede ninguna casilla continua en null
         public void RemoveAt(int index)
         {
             if(index > tam)
@@ -175,7 +194,7 @@ namespace FacundoCList.FacundoCList
         }
 
 
-
+        //Ordena de los elementos de un array
         public void Sort()
         {
             object[] aAux = new object[tam];
