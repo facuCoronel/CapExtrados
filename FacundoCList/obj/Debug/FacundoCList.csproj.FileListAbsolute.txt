@@ -1,0 +1,8 @@
+C:\Users\facun\OneDrive\Desktop\Extrados\POO\01ListVSLinkedList\FacundoCList\bin\Debug\FacundoCList.exe.config
+C:\Users\facun\OneDrive\Desktop\Extrados\POO\01ListVSLinkedList\FacundoCList\bin\Debug\FacundoCList.exe
+C:\Users\facun\OneDrive\Desktop\Extrados\POO\01ListVSLinkedList\FacundoCList\bin\Debug\FacundoCList.pdb
+C:\Users\facun\OneDrive\Desktop\Extrados\POO\01ListVSLinkedList\FacundoCList\obj\Debug\FacundoCList.csproj.AssemblyReference.cache
+C:\Users\facun\OneDrive\Desktop\Extrados\POO\01ListVSLinkedList\FacundoCList\obj\Debug\FacundoCList.csproj.SuggestedBindingRedirects.cache
+C:\Users\facun\OneDrive\Desktop\Extrados\POO\01ListVSLinkedList\FacundoCList\obj\Debug\FacundoCList.csproj.CoreCompileInputs.cache
+C:\Users\facun\OneDrive\Desktop\Extrados\POO\01ListVSLinkedList\FacundoCList\obj\Debug\FacundoCList.exe
+C:\Users\facun\OneDrive\Desktop\Extrados\POO\01ListVSLinkedList\FacundoCList\obj\Debug\FacundoCList.pdb
