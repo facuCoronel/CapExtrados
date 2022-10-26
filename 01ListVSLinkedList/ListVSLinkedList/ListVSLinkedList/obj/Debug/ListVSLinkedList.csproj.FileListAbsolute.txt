@@ -1,8 +1,0 @@
-C:\Users\facun\OneDrive\Desktop\Extrados\POO\01ListVSLinkedList\ListVSLinkedList\ListVSLinkedList\bin\Debug\ListVSLinkedList.exe.config
-C:\Users\facun\OneDrive\Desktop\Extrados\POO\01ListVSLinkedList\ListVSLinkedList\ListVSLinkedList\bin\Debug\ListVSLinkedList.exe
-C:\Users\facun\OneDrive\Desktop\Extrados\POO\01ListVSLinkedList\ListVSLinkedList\ListVSLinkedList\bin\Debug\ListVSLinkedList.pdb
-C:\Users\facun\OneDrive\Desktop\Extrados\POO\01ListVSLinkedList\ListVSLinkedList\ListVSLinkedList\obj\Debug\ListVSLinkedList.csproj.AssemblyReference.cache
-C:\Users\facun\OneDrive\Desktop\Extrados\POO\01ListVSLinkedList\ListVSLinkedList\ListVSLinkedList\obj\Debug\ListVSLinkedList.csproj.SuggestedBindingRedirects.cache
-C:\Users\facun\OneDrive\Desktop\Extrados\POO\01ListVSLinkedList\ListVSLinkedList\ListVSLinkedList\obj\Debug\ListVSLinkedList.csproj.CoreCompileInputs.cache
-C:\Users\facun\OneDrive\Desktop\Extrados\POO\01ListVSLinkedList\ListVSLinkedList\ListVSLinkedList\obj\Debug\ListVSLinkedList.exe
-C:\Users\facun\OneDrive\Desktop\Extrados\POO\01ListVSLinkedList\ListVSLinkedList\ListVSLinkedList\obj\Debug\ListVSLinkedList.pdb
